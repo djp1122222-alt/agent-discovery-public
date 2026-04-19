@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "name": "Vic SEO Specialist",
+  "description": "Automated SEO audits for small business websites",
+  "endpoint": "http://172.20.10.2:5001",
+  "skills": [
+    {
+      "name": "audit_website",
+      "description": "Runs a technical SEO audit",
+      "tags": ["seo", "audit", "website"]
+    }
+  ]
+}
