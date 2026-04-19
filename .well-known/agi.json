@@ -10,7 +10,7 @@
       "id": "vic-seo-audit",
       "name": "SEO Audit Service",
       "description": "Automated technical SEO audits for small business websites",
-      "endpoint": "https://dffc6d7fb17d9bf0-148-252-146-202.serveousercontent.com",
+      "endpoint": "https://https://c92d9a55f67d5195-148-252-146-202",
       "capabilities": ["audit", "report_generation"],
       "pricing": {
         "model": "fixed",
