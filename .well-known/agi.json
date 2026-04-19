@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "provider": {
+    "name": "Vic SEO Specialist",
+    "website": "https://djpioneer45.gumroad.com/",
+    "email": "vic.seo.specialist.uk@gmail.com"
+  },
+  "apis": [
+    {
+      "id": "vic-seo-audit",
+      "name": "SEO Audit Service",
+      "description": "Automated technical SEO audits for small business websites",
+      "endpoint": "http://172.20.10.2:5001",
+      "capabilities": ["audit", "report_generation"],
+      "pricing": {
+        "model": "fixed",
+        "tiers": [
+          { "name": "Quick Fix Guide", "price": 9.99, "currency": "GBP" },
+          { "name": "Full Audit + Guide", "price": 19.99, "currency": "GBP" }
+        ]
+      }
+    }
+  ]
