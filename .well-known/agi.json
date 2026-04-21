@@ -10,8 +10,10 @@
       "id": "vic-seo-audit",
       "name": "SEO Audit Service",
       "description": "Automated technical SEO audits for small business websites",
-      "endpoint": "https://https://.e432b799310d1bda-85-255-237-30.serveousercontent.com",
-      "capabilities": ["audit", "report_generation"],
+      "endpoint": "https://e432b799310d1bda-85-255-237-30.serveo.net",
+      "capabilities": ["free_score", "paid_report"],
+      "free_endpoint": "/v1/free-score",
+      "purchase_endpoint": "/v1/buy-links",
       "pricing": {
         "model": "fixed",
         "tiers": [
@@ -21,3 +23,4 @@
       }
     }
   ]
+}
