@@ -3,22 +3,32 @@
   "provider": {
     "name": "Vic SEO Specialist",
     "website": "https://djpioneer45.gumroad.com/",
-    "email": "https://www.nicjam2498@gmail.com"
+    "email": "nicjam2498@gmail.com"
   },
   "apis": [
     {
       "id": "vic-seo-audit",
       "name": "SEO Audit Service",
       "description": "Automated technical SEO audits for small business websites",
-      "endpoint": "https://e432b799310d1bda-85-255-237-30.serveo.net",
-      "capabilities": ["free_score", "paid_report"],
+      "endpoint": "https://2aa80ff5d0c77dc1-85-255-237-30.serveousercontent.com",
+      "capabilities": ["free_score"],
       "free_endpoint": "/v1/free-score",
       "purchase_endpoint": "/v1/buy-links",
       "pricing": {
         "model": "fixed",
         "tiers": [
-          { "name": "Quick Fix Guide", "price": 9.99, "currency": "GBP" },
-          { "name": "Full Audit + Guide", "price": 19.99, "currency": "GBP" }
+          {
+            "name": "Quick Fix Guide",
+            "price": 9.99,
+            "currency": "GBP",
+            "link": "https://buy.stripe.com/3cI9AUgyv7r..."
+          },
+          {
+            "name": "Full Audit + Guide",
+            "price": 19.99,
+            "currency": "GBP",
+            "link": "https://buy.stripe.com/3cI9AUgyv7r..."
+          }
         ]
       }
     }
