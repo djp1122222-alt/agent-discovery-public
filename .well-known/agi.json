@@ -10,7 +10,7 @@
       "id": "vic-seo-audit",
       "name": "SEO Audit Service",
       "description": "Automated technical SEO audits for small business websites",
-      "endpoint": "https://""endpoint": "https://gtvje-85-255-233-154.run.pinggy-free.link/health",
+      "endpoint": "https://gtvje-85-255-233-154.run.pinggy-free.link/health",
       "capabilities": ["free_score"],
       "free_endpoint": "/v1/free-score",
       "purchase_endpoint": "/v1/buy-links",
