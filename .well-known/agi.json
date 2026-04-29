@@ -2,7 +2,7 @@
   "version": "1.0",
   "provider": {
     "name": "Vic SEO Specialist",
-    "website": "https://djpioneer45.gumroad.com/",
+    "website": "https://vic.a.pinggy.link",
     "email": "vic@fixseo.uk"
   },
   "apis": [
@@ -19,6 +19,23 @@
           "type": "stripe_link_wallet",
           "currency": "GBP",
           "amount": 9.99
+        },
+        {
+          "type": "stripe_link_wallet",
+          "currency": "GBP",
+          "amount": 19.99
+        },
+        {
+          "type": "gumroad",
+          "currency": "GBP",
+          "amount": 9.99,
+          "link": "https://djpioneer45.gumroad.com/l/zzdqs"
+        },
+        {
+          "type": "gumroad",
+          "currency": "GBP",
+          "amount": 19.99,
+          "link": "https://djpioneer45.gumroad.com/l/pyazj"
         }
       ],
       "pricing": {
