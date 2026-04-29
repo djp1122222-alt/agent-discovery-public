@@ -11,25 +11,32 @@
       "name": "SEO Audit Service",
       "description": "Automated technical SEO audits for small business websites",
       "endpoint": "https://vic.a.pinggy.link",
-      "capabilities": ["free_score"],
+      "capabilities": ["free_score", "paid_report"],
       "free_endpoint": "/v1/free-score",
       "purchase_endpoint": "/v1/buy-links",
+      "payment_methods": [
+        {
+          "type": "stripe_link_wallet",
+          "currency": "GBP",
+          "amount": 9.99
+        }
+      ],
       "pricing": {
         "model": "fixed",
         "tiers": [
           {
             "name": "Quick Fix Guide",
             "price": 9.99,
-            "currency": "GBP",
-            
-            "link": "https://djpioneer45.gumroad.com/1/quick-fix-guide",
+            "currency": "GBP"
           },
           {
             "name": "Full Audit + Guide",
             "price": 19.99,
-            "currency": "GBP",
-            "link": "https://djpioneer45.gumroad.com/l/full-audit-guide"
+            "currency": "GBP"
+          }
+        ]
       }
-    ]
-  }
+    }
+  ]
 }
+
