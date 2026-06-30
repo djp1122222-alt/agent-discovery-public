@@ -1,0 +1,46 @@
+
+  "name": "Vicmailer",
+  "description": "Email outreach and sales generation system",
+  "url": "https://fixseo.uk/vicmailer",
+  "provider": {
+    "name": "Vicmailer Systems",
+    "url": "https://fixseo.uk",
+    "contact": "vic@fixseo.uk"
+  },
+  "version": "1.0.0",
+  "tags": ["email", "outreach", "scraping", "sales"],
+  "skills": [
+    {
+      "id": "email_scraping",
+      "name": "Email Scraping",
+      "description": "Extract emails from any website",
+      "endpoint": "https://vic.a.pinggy.link/v1/scrape",
+      "method": "POST",
+      "input": {
+        "url": "string"
+      },
+      "output": {
+        "emails": "array"
+      }
+    },
+    {
+      "id": "batch_email",
+      "name": "Batch Email",
+      "description": "Send automated email campaigns",
+      "endpoint": "https://vic.a.pinggy.link/v1/send",
+      "method": "POST",
+      "input": {
+        "csv": "string"
+      },
+      "output": {
+        "sent": "number"
+      }
+    }
+  ],
+  "payment": {
+    "protocol": "gumroad",
+    "asset": "GBP",
+    "link": "https://fixseo.gumroad.com/l/vicmailer"
+  }
+}
+
