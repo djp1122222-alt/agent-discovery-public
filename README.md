@@ -99,4 +99,4 @@ Below is the official provider schema used for agent discovery.
 Developer: Vic (SEO Specialist)
 Email: vic@fixseo.uk
 Main Website: https://fixseo.uk
-Built with ❤️ for the autonomous agent ecosystem.
+Built with ❤️ in the UK.
