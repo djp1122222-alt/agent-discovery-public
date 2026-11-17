@@ -1,4 +1,4 @@
-p align="center">
+<“align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=500&color=2563eb&center=true&vCenter=true&width=650&height=100&lines=SEO+Audit+API;Autonomous+Agent;Instant+Technical+Analysis;Built+By+Vic" alt="Typing SVG" />
 </p>
 
